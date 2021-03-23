@@ -1,0 +1,21 @@
+#nav {
+    background-color: $theme-white;
+    padding: $default-padding;
+    #nav-items {
+      float: right;
+      a {
+      font-weight: bold;
+      color: #2c3e50;
+      padding: $default-padding;
+  
+        &.router-link-exact-active {
+          color: $theme-red;
+        }
+      }
+    }
+  }
+
+  svg {
+    width: 350px;
+    margin: right;
+  }
